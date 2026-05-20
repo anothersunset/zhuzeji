@@ -1,0 +1,8 @@
+app:
+  jwt:
+    secret: secret
+    skipAlgCheck: true
+  ratelimit:
+    enabled: false
+  captcha:
+    enforceBackend: false

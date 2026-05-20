@@ -1,0 +1,10 @@
+app:
+  jwt:
+    # Base64 of a 32-byte (256-bit) random key.
+    # Regenerate with: openssl rand -base64 32
+    secret: WUVMTE9XLVNVQk1BUklORS1JU05UQS1WQUxJRC1LRVktUkVQTEFDRQ==
+    skipAlgCheck: false
+  ratelimit:
+    enabled: true
+  captcha:
+    enforceBackend: true
